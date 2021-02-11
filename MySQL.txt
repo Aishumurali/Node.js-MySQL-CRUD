@@ -1,0 +1,11 @@
+CREATE DATABASE node_mysql_crud_db;
+CREATE TABLE  `node_mysql_crud_db`.`employees` (
+  `id` BIGINT  AUTO_INCREMENT,
+  `group1` VARCHAR(25) NOT NULL,
+  `title` VARCHAR(25) NOT NULL,
+  `start_time` DATETIME NOT NULL,
+  `end_time` DATETIME NOT NULL,
+
+INSERT INTO `node_mysql_crud_db`.`employees` (`group1`, `title`, `start_time`, `end_time`) VALUES ('team1', 'full-stack-developer','2021-09-12 05:40:00' , '2021-11-19 03:30:30');
+INSERT INTO `node_mysql_crud_db`.`employees` (`group1`, `title`, `start_time`, `end_time`) VALUES ('team2', 'security','2021-09-12 05:40:00' , '2021-11-19 03:30:30');
+INSERT INTO `node_mysql_crud_db`.`employees` (`group1`, `title`, `start_time`, `end_time`) VALUES ('team3', 'harware','2021-09-12 05:40:00' , '2021-11-19 03:30:30');
